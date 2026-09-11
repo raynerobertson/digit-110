@@ -1,95 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poem>
-    <title><format type = "underlined">Ballad of Booker T.</format></title>
-    <author>Langston Hughes</author>
-    <date>1941-06-01</date> 
+<root>
+    <metadata>
+        <author>Langston Hughes</author>
+        <date>1941-06-01</date>
+        <encoder>Rayne Robertson</encoder>
+        <info>
+            stamp tag refers to a red stamp on the original document with "LIBRARY OF CONGRESS" on it 
+        <!-- num: number
+             rhy: rhyme -->
+        </info>
+    </metadata>
     
-    <stanza num = "1"> 
-        <line><person>Booker T.</person></line> 
-        <line>Was a practical man.</line>  
-        <line>He said, Till the soil</line>  
-        <line>And learn from the land.</line> 
-        <line>Let down your bu<stamp>cket</stamp></line>  
-        <line>Where you are.</line>  
-        <rhyme id = "fate">
-            <line>Your fate is h<stamp>ere</stamp></line>  
-            <line>And not afar.</line>
-        </rhyme>
-    </stanza> 
+    <poem>
+        <title><format type = "underlined">Ballad of Booker T.</format></title>
     
-    <stanza num = "2">
-        <line>To help yoursel<stamp>f</stamp></line>  
-        <line>And your fellow man,</line>  
-        <line>Train your head,</line>  
-        <line>Your heart, <format type = "underline">and your hand.</format></line>
-    </stanza>
-    
-    <stanza num = "3">
-        <line>For smartness alone's</line>  
-        <line>Surely not meet—</line>  
-        <line>If you haven't at the same time</line>  
-        <line>Got something to eat.</line>
-    </stanza> 
-    
-    <stanza num = "4">
-        <line>Thus at <place>Tuskegee</place></line>  
-        <line>He built a school</line>  
-        <line>With book-learning there</line>  
-        <line>And the workman's tool.</line>
-    </stanza> 
-    
-    <stanza num = "5">
-        <line>He started out</line>  
-        <line>In a simple way—</line>  
-        <line>For yesterday</line>  
-        <line>Was <format type = "underline">not</format> today.</line>
-    </stanza>
-    
-    <stanza num = "6">
-        <line>Sometimes he had</line>  
-        <line>Compromise in his talk—</line>  
-        <line>For a man must crawl</line>  
-        <line>Before he can walk—</line> 
-        <line>And in <place>Alabama</place> in <date>'85</date></line>  
-        <line>A joker was lucky</line>  
-        <line>To be alive.</line>
-    </stanza> 
-    
-    <stanza num = "7">
-        <line>But <person>Booker T.</person></line>  
-        <line>Was nobody's fool:</line>  
-        <line>You may carve a dream</line>  
-        <line>With an humble tool.</line>
-    </stanza> 
-    
-    <stanza num = "8">
-        <line>The tallest tower</line>  
-        <line>Can tumble down</line>  
-        <line>If it be not rooted</line>  
-        <line>In solid ground.</line>
-    </stanza> 
-    
-    <stanza num = "9">
-        <line>So, being a far-seeing</line>  
-        <line>Practical man,</line>  
-        <line>He said, Train your head,</line>  
-        <line>Your heart, <format type = "underline">and your hand.</format></line>
-    </stanza>
-    
-    <stanza num = "10">
-        <rhyme type = "repetition" ref = "fate">
-            <line>Your fate is here</line>  
-            <line>And not afar,</line>
-        </rhyme>  
-        <line>So let down your bucket</line>  
-        <line>Where you are.</line>
-    </stanza>
-    
-    <credits>
-        <signature type = "cursive">Langston Hughes</signature>
-        <draft type = "final">Final Draft,</draft>
-        <place>Hollow Hills Farm,</place> 
-        <place>Monterey, California,</place> 
-        <date>June 1, 1941.</date>
-    </credits> 
-</poem>
+        <body>
+            <sentence num = "1"> 
+                <line num = "1" rhy = "A">Booker T.</line> 
+                <line num = "2" rhy = "B">Was a practical man.</line>  
+                <line num = "3" rhy = "A">He said, Till the soil</line>  
+                <line num = "4" rhy = "B">And learn from the land.</line>
+            </sentence> 
+            <sentence num = "2">
+                <line num = "5" rhy = "A">Let down your bu<stamp>cket</stamp></line>  
+                <line num = "6" rhy = "B">Where you are.</line>  
+                <rep id = "fate">
+                    <line num = "7" rhy = "A">Your fate is h<stamp>ere</stamp></line>  
+                    <line num = "8" rhy = "B">And not afar.</line>
+                </rep>
+            </sentence> 
+            <sentence num = "3">
+                <line num = "9" rhy = "A">To help yoursel<stamp>f</stamp></line>  
+                <line num = "10" rhy = "B">And your fellow man,</line>  
+                <line num = "11" rhy = "A">Train your head,</line>  
+                <line num = "12" rhy = "B">Your heart, <format type = "underline">and your hand.</format></line>
+            </sentence>
+            <sentence num = "4">
+                <line num = "13" rhy = "A">For smartness alone's</line>  
+                <line num = "14" rhy = "B">Surely not meet—</line>  
+                <line num = "15" rhy = "A">If you haven't at the same time</line>  
+                <line num = "16" rhy = "B">Got something to eat.</line>
+            </sentence> 
+            <sentence num = "5">
+                <line num = "17" rhy = "A">Thus at <place>Tuskegee</place></line>  
+                <line num = "18" rhy = "B">He built a school</line>  
+                <line num = "19" rhy = "A">With book-learning there</line>  
+                <line num = "20" rhy = "B">And the workman's tool.</line>
+            </sentence> 
+            
+            <sentence num = "6">
+                <line num = "21" rhy = "A">He started out</line>  
+                <line num = "22" rhy = "B">In a simple way—</line>  
+                <line num = "23" rhy = "A">For yesterday</line>  
+                <line num = "24" rhy = "B">Was <format type = "underline">not</format> today.</line>
+            </sentence>
+            <sentence num = "7">
+                <line num = "25" rhy = "A">Sometimes he had</line>  
+                <line num = "26" rhy = "B">Compromise in his talk—</line>  
+                <line num = "27" rhy = "A">For a man must crawl</line>  
+                <line num = "28" rhy = "B">Before he can walk—</line>
+            </sentence>
+            <sentence num = "8">
+                <line num = "29" rhy = "B">And in <place>Alabama</place> in <date>'85</date></line>  
+                <line num = "30" rhy = "A">A joker was lucky</line>  
+                <line num = "31" rhy = "B">To be alive.</line>
+            </sentence> 
+            <sentence num = "9">
+                <line num = "32" rhy = "A">But <person>Booker T.</person></line>  
+                <line num = "33" rhy = "B">Was nobody's fool:</line>  
+                <line num = "34" rhy = "A">You may carve a dream</line>  
+                <line num = "35" rhy = "B">With an humble tool.</line>
+            </sentence> 
+            <sentence num = "10">
+                <line num = "36" rhy = "A">The tallest tower</line>  
+                <line num = "37" rhy = "B">Can tumble down</line>  
+                <line num = "38" rhy = "A">If it be not rooted</line>  
+                <line num = "39" rhy = "B">In solid ground.</line>
+            </sentence> 
+            <sentence num = "11">
+                <line num = "40" rhy = "A">So, being a far-seeing</line>  
+                <line num = "41" rhy = "B">Practical man,</line>  
+                <line num = "42" rhy = "A">He said, Train your head,</line>  
+                <line num = "43" rhy = "B">Your heart, <format type = "underline">and your hand.</format></line>
+            </sentence>
+            <sentence num = "12">
+                <rep ref = "fate">
+                    <line num = "44" rhy = "A">Your fate is here</line>  
+                    <line num = "45" rhy = "B">And not afar,</line>
+                </rep>  
+                <line num = "46" rhy = "A">So let down your bucket</line>  
+                <line num = "47" rhy = "B">Where you are.</line>
+            </sentence>
+        </body>
+        
+        <credits>
+            <signature type = "cursive">Langston Hughes</signature>
+            <draft type = "final">Final Draft,</draft>
+            <place>Hollow Hills Farm,</place> 
+            <place>Monterey, California,</place> 
+            <date>June 1, 1941.</date>
+        </credits> 
+    </poem>
+</root>
