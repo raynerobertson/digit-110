@@ -1,0 +1,29 @@
+start = root
+root = element root { metadata, poem }
+
+metadata = element metadata { author, date, encoder, info }
+author = element author { text }
+date = element date { text }
+encoder = element encoder { text }
+info = element info { text }
+
+poem = element poem { title, body, credits }
+
+title = element title { format }
+format = element format { attribute type { "underline" | "underlined" }, text }
+
+body = element body { sentence+ }
+sentence = element sentence { attribute num { xsd:integer }, (line | rep)+ }
+
+line = element line { attribute num { xsd:integer }, attribute rhy { text }, mixed { (stamp | place | date | person | format)* } }
+
+stamp = element stamp { text }
+place = element place { text }
+person = element person { text }
+
+rep = element rep { (attribute id { text } | attribute ref { text }), line+ }
+
+credits = element credits { signature, draft, place+, date }
+
+signature = element signature { attribute type { text }, text }
+draft = element draft { attribute type { text }, text }
