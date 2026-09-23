@@ -1,0 +1,22 @@
+start = root 
+root = element root { metadata, song } 
+
+metadata = element metadata { group, date, encoder, album, members } 
+group = element group { text } 
+date = element date { text } 
+encoder = element encoder { text } 
+album = element album { text }
+
+members = element members { member+ } 
+member = element member { attribute id { "wonhee" | "minju" | "yunah" | "moka" | "iroha" }, text } 
+
+song = element song { title, section+ } 
+title = element title { text }
+
+section = element section { attribute type { "verse" | "prechorus" | "chorus" }, attribute num { xsd:integer }, line+ } 
+
+line = element line { attribute num { xsd:integer }, attribute start { text }, attribute end { text }, part+ } 
+
+part = element part { attribute member { "wonhee" | "minju" | "yunah" | "moka" | "iroha" }, lyricText+ } 
+
+lyricText = element text { attribute lang { "kor" | "eng" }, text }

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="robertson_ex4_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <group>ILLIT</group>
+        <date>2025-11-24</date>
+        <encoder>Rayne Robertson</encoder>
+        <album>NOT CUTE ANYMORE</album>
+        <members>
+            <member id="wonhee">Wonhee</member>
+            <member id="minju">Minju</member>
+            <member id="yunah">Yunah</member>
+            <member id="moka">Moka</member>
+            <member id="iroha">Iroha</member>
+        </members>
+    </metadata>
+    
+    <song>
+        <title>NOT CUTE ANYMORE</title>
+        
+        <section type="verse" num="1">
+            <line num="1" start="00:10" end="00:15">
+                <part member="minju">
+                    <text lang="kor">용감한 내 가방,</text> 
+                    <text lang="eng">no keyring, no hand mirror</text>
+                </part>
+            </line>
+            <line num="2" start="00:15" end="00:20">
+                <part member="minju">
+                    <text lang="eng">Oh, rock will never die,</text> 
+                    <text lang="kor">린다, 린다 자장가</text>
+                </part>
+            </line>
+            <line num="3" start="00:20" end="00:25">
+                <part member="yunah">
+                    <text lang="kor">한정판 콩국수</text> 
+                    <text lang="eng">matcha</text>
+                    <text lang="kor">보다 고소해</text>
+                </part>
+            </line>
+            <line num="4" start="00:25" end="00:29">
+                <part member="yunah">
+                    <text lang="eng">I'm too shy for all these,</text> 
+                    <text lang="kor">데이트 내내 젤리슈즈</text>
+                </part>
+            </line>
+        </section>
+        
+        <section type="prechorus" num="1">
+            <line num="5" start="00:29" end="00:36">
+                <part member="iroha">
+                    <text lang="eng">I got Suede on my vinyl,</text> 
+                    <text lang="kor">나의 동화책</text>
+                </part>
+            </line>
+        </section>
+        
+        <section type="chorus" num="1">
+            <line num="6" start="00:36" end="00:41">
+                <part member="wonhee">
+                    <text lang="eng">I'm not cute anymore</text>
+                </part>
+                <part member="moka">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+            </line>
+            <line num="7" start="00:41" end="00:49">
+                <part member="wonhee">
+                    <text lang="eng">I'm not cute anymore</text>
+                </part>
+                <part member="yunah">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+                <part member="minju">
+                    <text lang="kor">안 돼</text> 
+                    <text lang="eng">no more</text>
+                </part>
+            </line>
+            <line num="8" start="00:49" end="00:56">
+                <part member="minju">
+                    <text lang="kor">강아지보단 난 느슨한 해파리가 좋아</text>
+                </part>
+                <part member="iroha">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+            </line>
+            <line num="9" start="00:56" end="01:00">
+                <part member="moka">
+                    <text lang="eng">'Cause I'm not cute anymore</text>
+                </part>
+            </line>
+        </section>
+        
+        <section type="verse" num="2">
+            <line num="10" start="01:01" end="01:06">
+                <part member="wonhee">
+                    <text lang="kor">오분 컷 완벽한</text> 
+                    <text lang="eng">my makeup tutorial</text>
+                </part>
+            </line>
+            <line num="11" start="01:06" end="01:11">
+                <part member="wonhee">
+                    <text lang="eng">When I get super stressed,</text> 
+                    <text lang="kor">공포영화 좀 볼까?</text>
+                </part>
+            </line>
+            <line num="12" start="01:11" end="01:16">
+                <part member="iroha">
+                    <text lang="kor">근데 넌 멀었어,</text> 
+                    <text lang="eng">oh, I don't like cherry coke</text>
+                </part>
+            </line>
+            <line num="13" start="01:16" end="01:20">
+                <part member="yunah">
+                    <text lang="kor">난 외계인이 아냐, 그냥 털털한 편인 거야</text>
+                </part>
+            </line>
+        </section>
+        
+        <section type="prechorus" num="2">
+            <line num="14" start="01:20" end="01:27">
+                <part member="minju">
+                    <text lang="eng">I got Suede on my vinyl,</text> 
+                    <text lang="kor">나의 동화책</text>
+                </part>
+            </line>
+        </section>
+        
+        <section type="chorus" num="2">
+            <line num="15" start="01:27" end="01:32">
+                <part member="moka">
+                    <text lang="eng">I'm not cute anymore</text>
+                </part>
+                <part member="wonhee">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+            </line>
+            <line num="16" start="01:32" end="01:40">
+                <part member="moka">
+                    <text lang="eng">I'm not cute anymore</text>
+                </part>
+                <part member="iroha">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+                <part member="yunah"> 
+                    <text lang="kor">안 돼</text> 
+                    <text lang="eng">no more</text>
+                </part>
+            </line>  
+            <line num="17" start="01:40" end="01:47">
+                <part member="yunah">
+                    <text lang="kor">강아지보단 난 느슨한 해파리가 좋아</text>
+                </part>
+                <part member="moka">
+                    <text lang="eng">(uh-uh)</text>
+                </part>
+            </line>
+            <line num="18" start="01:47" end="01:50">
+                <part member="wonhee">
+                    <text lang="eng">'Cause I'm not cute anymore</text>
+                </part>
+            </line>
+        </section>
+    </song>
+</root>
