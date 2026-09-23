@@ -2,16 +2,16 @@
 <?xml-model href="robertson_ex4_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <metadata>
-        <group>ILLIT</group>
+        <group>ILLIT(아일릿)</group>
         <date>2025-11-24</date>
         <encoder>Rayne Robertson</encoder>
         <album>NOT CUTE ANYMORE</album>
         <members>
-            <member id="wonhee">Wonhee</member>
-            <member id="minju">Minju</member>
-            <member id="yunah">Yunah</member>
-            <member id="moka">Moka</member>
-            <member id="iroha">Iroha</member>
+            <member id="wonhee">원희</member>
+            <member id="minju">민주</member>
+            <member id="yunah">윤아</member>
+            <member id="moka">모카</member>
+            <member id="iroha">이로하</member>
         </members>
     </metadata>
     
