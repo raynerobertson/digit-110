@@ -1,0 +1,58 @@
+start = xml
+xml = element xml {metadata, recipe}
+
+# added yield element
+metadata = element metadata {title, author, editor, source, time, yield}
+
+title = element title {text}
+author = element author {id, text}
+editor = element editor {id, text}
+# changed "empty" to include the url tag
+source = element source {url, text}
+time = element time {dur, text}
+# added yield element
+yield = element yield { text }
+# fixed "is" to "id"
+id = attribute id {xsd:ID}
+url = attribute url {xsd:anyURI}
+dur = attribute dur {xsd:duration}
+
+recipe = element recipe {ingList, prep}
+
+ingList = element ingList {heading, ing+}
+heading = element heading {text}
+ing = element ing {id, quant?, unit?, mixed{alt*}}
+alt = element alt {quant, unit, text}
+quant = attribute quant {xsd:float}
+# added pint attribute
+unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}
+# changed "?" to "+"
+prep = element prep {heading, step+}
+# added parentheses
+step = element step {n, mixed{(combine | equip | equipUse | ingUse)*}}
+# added temp 
+# added nested elements
+equip = element equip {id, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
+temp = element temp {quant, unit, text}
+size = element size {depth, unit, text}
+# added a "setting" element
+setting = element setting {text}
+depth = attribute depth {xsd:float}
+equipUse = element equipUse {ref, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
+# changed quant and unit to be optional
+ingUse = element ingUse {ref, quant?, unit?, text}
+ref = attribute ref {xsd:IDREFS}
+# includes ingUse now
+combine = element combine {ref, mixed {ingUse*}}
+# changed date to integer
+n = attribute n {xsd:integer}
+
+
+
+
+
+
+
+
+
+
