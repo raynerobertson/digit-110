@@ -16,6 +16,17 @@
                Molly), drew pictures and wrote notes to her husband Ernst Behrend.</p>
          </sourceDesc>
       </fileDesc>
+     
+      <profileDesc>
+        <handNotes>
+           <handNote xml:id="blackPrint">
+              Print writing in black ink
+           </handNote>
+           <handNote xml:id="redCursive">
+              Cursive writing with red ink
+           </handNote>
+        </handNotes>
+      </profileDesc>
   </teiHeader>
 
    <text>
@@ -23,24 +34,27 @@
          <div type="page" xml:id="march12">
             <head>
                <date when="1909-03-12">MARCH 12, 1909.</date>
-               <date>FRIDAY</date>
+               <date type="dayOfWeek">FRIDAY</date>
             </head>
+            
             <figure>
                <figDesc>
                   A woman wearing gray winter clothing and snowshoes
                   <!-- Are those snowshoes? -->
                </figDesc>
             </figure>
-            <note type="handwritten">
-               MOLLY ON 
-               SNOWSHOES
-               THAT MR. WEIR 
-               GOT.
-               PRETTY PICTURE
-               IS IT NOT?!
+            
+            <note type="handwritten" hand="blackPrint">
+               <l>MOLLY ON</l> 
+               <l>SNOWSHOES</l>
+               <l>THAT MR. WEIR</l> 
+               <l>GOT.</l>
+               <l>PRETTY PICTURE</l>
+               <l>IS IT NOT?!</l>
             </note>
-            <note type="handwritten">
-               Love from Molly
+            
+            <note type="handwritten" hand="redCursive">
+               <l>Love from Molly</l>
                <!-- Not entirely sure if thats what she wrote -->
             </note>
          </div>
@@ -48,27 +62,31 @@
          <div type="page" xml:id="march17">
             <head>
                <date when="1909-03-17">MARCH 17, 1909.</date>
-               <date>WEDNESDAY</date>
+               <date type="dayOfWeek">WEDNESDAY</date>
                <title>St. Patrick's Day</title>
             </head>
+            
             <figure>
                <figDesc>
                   Two snakes surrounded by green clovers
                </figDesc>
             </figure>
-            <note type="handwritten">
-               ST. PATRICK WAS A USEFUL SAINT
-               HE FRIGHTENED ALL THE SNAKES AWAY—
-               I WISH HE'D TRY HIS ART ON SMOKE
-               AROUND THE HAMMERMILL SOME DAY!
+            
+            <note type="handwritten" hand="blackPrint">
+               <l>ST. PATRICK WAS A USEFUL SAINT</l>
+               <l>HE FRIGHTENED ALL THE SNAKES AWAY—</l>
+               <l>I WISH HE'D TRY HIS ART ON SMOKE</l>
+               <l>AROUND THE HAMMERMILL SOME DAY!</l>
             </note>
+            
             <figure>
                <figDesc>
                   A factory with smoke coming out
                </figDesc>
             </figure>
-            <note type="handwritten">
-               The Hammermill really 
+            
+            <note type="handwritten" hand="redCursive">
+               <l>The Hammermill really...</l> 
                <!-- I can't read the last two words at all -->
             </note>
          </div>
