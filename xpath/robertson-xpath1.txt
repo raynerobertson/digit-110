@@ -1,0 +1,19 @@
+1. //div[@type="panelGrp"]
+
+2. //div[@type="panelGrp"]//cbml:panel
+
+3. //div[@type="panelGrp"][2]
+   //div[@type="panelGrp"][2]//cbml:panel
+        There are 2 results
+        
+4. //cbml:panel/@characters
+        There are 53 results
+        
+5. //cbml:panel[@characters='#narrator']
+
+6. //floatingText
+        There are 41 results
+   Probably text that isn't speech
+   //cbml:panel[floatingText]
+        There are 26 results
+   count(//cbml:panel[floatingText])
